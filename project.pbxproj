@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5CD85A3706D207B2D30319 /* Pods_MadeinKuwait_Driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151DD3A738EBBFB4FC4CB3B1 /* Pods_MadeinKuwait_Driver.framework */; };
+		2913E43724448C60006CD6BD /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2913E43624448C60006CD6BD /* MapVC.swift */; };
+		293214E92442440C00E43359 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293214E82442440C00E43359 /* LoginVC.swift */; };
+		293214EB2442441B00E43359 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293214EA2442441B00E43359 /* SignupVC.swift */; };
+		293214ED2442442C00E43359 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293214EC2442442C00E43359 /* ProfileVC.swift */; };
+		293214EF2442443C00E43359 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293214EE2442443C00E43359 /* EditProfileVC.swift */; };
+		293214F12442446C00E43359 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293214F02442446C00E43359 /* HomeVC.swift */; };
+		293214F32442447F00E43359 /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293214F22442447F00E43359 /* OrdersVC.swift */; };
+		293214F82442467B00E43359 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293214F72442467B00E43359 /* HelpVC.swift */; };
+		293214FA2442470D00E43359 /* OrderDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293214F92442470D00E43359 /* OrderDetailsVC.swift */; };
+		29984E1A24390852004BD732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E1924390852004BD732 /* AppDelegate.swift */; };
+		29984E1C24390852004BD732 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E1B24390852004BD732 /* SceneDelegate.swift */; };
+		29984E2124390852004BD732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29984E1F24390852004BD732 /* Main.storyboard */; };
+		29984E2324390854004BD732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29984E2224390854004BD732 /* Assets.xcassets */; };
+		29984E2624390854004BD732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29984E2424390854004BD732 /* LaunchScreen.storyboard */; };
+		29984E34243908CF004BD732 /* Reload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E33243908CF004BD732 /* Reload.swift */; };
+		29984E36243908D3004BD732 /* Card View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E35243908D3004BD732 /* Card View.swift */; };
+		29984E38243908DE004BD732 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E37243908DD004BD732 /* UIImage.swift */; };
+		29984E3A243908E4004BD732 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E39243908E4004BD732 /* NetworkHelper.swift */; };
+		29984E3E2439099E004BD732 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E3B2439099E004BD732 /* APIClient.swift */; };
+		29984E3F2439099E004BD732 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E3C2439099E004BD732 /* Constants.swift */; };
+		29984E402439099E004BD732 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E3D2439099E004BD732 /* APIRouter.swift */; };
+		29984E4D24390A40004BD732 /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E4324390A40004BD732 /* UISliderX.swift */; };
+		29984E4E24390A40004BD732 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E4424390A40004BD732 /* UILabelX.swift */; };
+		29984E4F24390A40004BD732 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E4524390A40004BD732 /* UIViewXRadialGradient.swift */; };
+		29984E5024390A40004BD732 /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E4624390A40004BD732 /* UIViewControllerX.swift */; };
+		29984E5124390A40004BD732 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E4724390A40004BD732 /* UIImageViewX.swift */; };
+		29984E5224390A40004BD732 /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E4824390A40004BD732 /* UIViewAnchorPoint.swift */; };
+		29984E5324390A40004BD732 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E4924390A40004BD732 /* UIViewX.swift */; };
+		29984E5424390A40004BD732 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E4A24390A40004BD732 /* UIButtonX.swift */; };
+		29984E5524390A40004BD732 /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E4B24390A40004BD732 /* UIVisualEffectViewX.swift */; };
+		29984E5624390A40004BD732 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29984E4C24390A40004BD732 /* UITextFieldX.swift */; };
+		29AA266E243E6A260031E4A6 /* WaitingOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29AA266C243E6A260031E4A6 /* WaitingOrderCell.xib */; };
+		29AA266F243E6A260031E4A6 /* WaitingOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AA266D243E6A260031E4A6 /* WaitingOrderCell.swift */; };
+		C59804322441BC2F007ED70C /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59804302441BC2F007ED70C /* OrderCell.swift */; };
+		C59804332441BC2F007ED70C /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59804312441BC2F007ED70C /* OrderCell.xib */; };
+		ED779CB0244B77E500453A0E /* UIViewController+AdditionalFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED779CAF244B77E500453A0E /* UIViewController+AdditionalFeatures.swift */; };
+		ED779CB2244B7A7400453A0E /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED779CB1244B7A7400453A0E /* String+Validation.swift */; };
+		ED91B94C244DF39E008FF9F0 /* CustomAnimatedTextInputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED91B94B244DF39E008FF9F0 /* CustomAnimatedTextInputStyle.swift */; };
+		EDB35CAE244C56AD00658344 /* UIView+AdditionalFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB35CAD244C56AD00658344 /* UIView+AdditionalFeatures.swift */; };
+		EDE9522B244A687F00DDD9B3 /* UISegmentControl+AddSelectedSegBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE9522A244A687F00DDD9B3 /* UISegmentControl+AddSelectedSegBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		151DD3A738EBBFB4FC4CB3B1 /* Pods_MadeinKuwait_Driver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadeinKuwait_Driver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2913E43624448C60006CD6BD /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		293214E82442440C00E43359 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		293214EA2442441B00E43359 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		293214EC2442442C00E43359 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		293214EE2442443C00E43359 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		293214F02442446C00E43359 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		293214F22442447F00E43359 /* OrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
+		293214F72442467B00E43359 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		293214F92442470D00E43359 /* OrderDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsVC.swift; sourceTree = "<group>"; };
+		29984E1624390852004BD732 /* MadeinKuwait-Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MadeinKuwait-Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29984E1924390852004BD732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29984E1B24390852004BD732 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29984E2024390852004BD732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29984E2224390854004BD732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29984E2524390854004BD732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29984E2724390854004BD732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29984E33243908CF004BD732 /* Reload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reload.swift; sourceTree = "<group>"; };
+		29984E35243908D3004BD732 /* Card View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Card View.swift"; sourceTree = "<group>"; };
+		29984E37243908DD004BD732 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		29984E39243908E4004BD732 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		29984E3B2439099E004BD732 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		29984E3C2439099E004BD732 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		29984E3D2439099E004BD732 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		29984E4124390A32004BD732 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		29984E4324390A40004BD732 /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		29984E4424390A40004BD732 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		29984E4524390A40004BD732 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		29984E4624390A40004BD732 /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		29984E4724390A40004BD732 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		29984E4824390A40004BD732 /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		29984E4924390A40004BD732 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		29984E4A24390A40004BD732 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		29984E4B24390A40004BD732 /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		29984E4C24390A40004BD732 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		29AA266C243E6A260031E4A6 /* WaitingOrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaitingOrderCell.xib; sourceTree = "<group>"; };
+		29AA266D243E6A260031E4A6 /* WaitingOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingOrderCell.swift; sourceTree = "<group>"; };
+		5F87A11E439E1D41F50A2FA7 /* Pods-MadeinKuwait-Driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadeinKuwait-Driver.debug.xcconfig"; path = "Target Support Files/Pods-MadeinKuwait-Driver/Pods-MadeinKuwait-Driver.debug.xcconfig"; sourceTree = "<group>"; };
+		B2AE5EAB4A605F3523017616 /* Pods-MadeinKuwait-Driver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadeinKuwait-Driver.release.xcconfig"; path = "Target Support Files/Pods-MadeinKuwait-Driver/Pods-MadeinKuwait-Driver.release.xcconfig"; sourceTree = "<group>"; };
+		C59804302441BC2F007ED70C /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		C59804312441BC2F007ED70C /* OrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
+		ED779CAF244B77E500453A0E /* UIViewController+AdditionalFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AdditionalFeatures.swift"; sourceTree = "<group>"; };
+		ED779CB1244B7A7400453A0E /* String+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		ED91B94B244DF39E008FF9F0 /* CustomAnimatedTextInputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimatedTextInputStyle.swift; sourceTree = "<group>"; };
+		EDB35CAD244C56AD00658344 /* UIView+AdditionalFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AdditionalFeatures.swift"; sourceTree = "<group>"; };
+		EDE9522A244A687F00DDD9B3 /* UISegmentControl+AddSelectedSegBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentControl+AddSelectedSegBar.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29984E1324390852004BD732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5CD85A3706D207B2D30319 /* Pods_MadeinKuwait_Driver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C905A9FC579E13D907B98A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F87A11E439E1D41F50A2FA7 /* Pods-MadeinKuwait-Driver.debug.xcconfig */,
+				B2AE5EAB4A605F3523017616 /* Pods-MadeinKuwait-Driver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		293214E5244243D100E43359 /* Auths */ = {
+			isa = PBXGroup;
+			children = (
+				293214E82442440C00E43359 /* LoginVC.swift */,
+				293214EA2442441B00E43359 /* SignupVC.swift */,
+			);
+			path = Auths;
+			sourceTree = "<group>";
+		};
+		293214E6244243DF00E43359 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				293214EC2442442C00E43359 /* ProfileVC.swift */,
+				293214EE2442443C00E43359 /* EditProfileVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		293214E7244243E400E43359 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				293214F6244244F900E43359 /* Notifications */,
+				293214F4244244E100E43359 /* Board */,
+				293214F72442467B00E43359 /* HelpVC.swift */,
+				2913E43624448C60006CD6BD /* MapVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		293214F4244244E100E43359 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				293214F02442446C00E43359 /* HomeVC.swift */,
+				C59804302441BC2F007ED70C /* OrderCell.swift */,
+				C59804312441BC2F007ED70C /* OrderCell.xib */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		293214F6244244F900E43359 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				293214F92442470D00E43359 /* OrderDetailsVC.swift */,
+				293214F22442447F00E43359 /* OrdersVC.swift */,
+				29AA266D243E6A260031E4A6 /* WaitingOrderCell.swift */,
+				29AA266C243E6A260031E4A6 /* WaitingOrderCell.xib */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		29984E0D24390852004BD732 = {
+			isa = PBXGroup;
+			children = (
+				29984E1824390852004BD732 /* MadeinKuwait-Driver */,
+				29984E1724390852004BD732 /* Products */,
+				0C905A9FC579E13D907B98A4 /* Pods */,
+				DA0835FFE55D98C2361E65D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29984E1724390852004BD732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29984E1624390852004BD732 /* MadeinKuwait-Driver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29984E1824390852004BD732 /* MadeinKuwait-Driver */ = {
+			isa = PBXGroup;
+			children = (
+				29984E322439087D004BD732 /* Helper */,
+				29984E3124390877004BD732 /* API */,
+				29984E3024390873004BD732 /* M */,
+				29984E2F2439086D004BD732 /* V */,
+				29984E2E24390868004BD732 /* C */,
+				29984E2D2439085F004BD732 /* SF */,
+				29984E1924390852004BD732 /* AppDelegate.swift */,
+				29984E1B24390852004BD732 /* SceneDelegate.swift */,
+				29984E2224390854004BD732 /* Assets.xcassets */,
+				29984E2724390854004BD732 /* Info.plist */,
+			);
+			path = "MadeinKuwait-Driver";
+			sourceTree = "<group>";
+		};
+		29984E2D2439085F004BD732 /* SF */ = {
+			isa = PBXGroup;
+			children = (
+				29984E4224390A40004BD732 /* DesignableX */,
+				29984E4124390A32004BD732 /* Header.h */,
+			);
+			path = SF;
+			sourceTree = "<group>";
+		};
+		29984E2E24390868004BD732 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				293214E7244243E400E43359 /* Home */,
+				293214E6244243DF00E43359 /* Profile */,
+				293214E5244243D100E43359 /* Auths */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		29984E2F2439086D004BD732 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				29984E2424390854004BD732 /* LaunchScreen.storyboard */,
+				29984E1F24390852004BD732 /* Main.storyboard */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		29984E3024390873004BD732 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		29984E3124390877004BD732 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				29984E3D2439099E004BD732 /* APIRouter.swift */,
+				29984E3B2439099E004BD732 /* APIClient.swift */,
+				29984E3C2439099E004BD732 /* Constants.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		29984E322439087D004BD732 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ED779CAF244B77E500453A0E /* UIViewController+AdditionalFeatures.swift */,
+				29984E33243908CF004BD732 /* Reload.swift */,
+				29984E35243908D3004BD732 /* Card View.swift */,
+				29984E37243908DD004BD732 /* UIImage.swift */,
+				29984E39243908E4004BD732 /* NetworkHelper.swift */,
+				EDE9522A244A687F00DDD9B3 /* UISegmentControl+AddSelectedSegBar.swift */,
+				ED779CB1244B7A7400453A0E /* String+Validation.swift */,
+				EDB35CAD244C56AD00658344 /* UIView+AdditionalFeatures.swift */,
+				ED91B94B244DF39E008FF9F0 /* CustomAnimatedTextInputStyle.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		29984E4224390A40004BD732 /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				29984E4324390A40004BD732 /* UISliderX.swift */,
+				29984E4424390A40004BD732 /* UILabelX.swift */,
+				29984E4524390A40004BD732 /* UIViewXRadialGradient.swift */,
+				29984E4624390A40004BD732 /* UIViewControllerX.swift */,
+				29984E4724390A40004BD732 /* UIImageViewX.swift */,
+				29984E4824390A40004BD732 /* UIViewAnchorPoint.swift */,
+				29984E4924390A40004BD732 /* UIViewX.swift */,
+				29984E4A24390A40004BD732 /* UIButtonX.swift */,
+				29984E4B24390A40004BD732 /* UIVisualEffectViewX.swift */,
+				29984E4C24390A40004BD732 /* UITextFieldX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
+		DA0835FFE55D98C2361E65D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				151DD3A738EBBFB4FC4CB3B1 /* Pods_MadeinKuwait_Driver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29984E1524390852004BD732 /* MadeinKuwait-Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29984E2A24390854004BD732 /* Build configuration list for PBXNativeTarget "MadeinKuwait-Driver" */;
+			buildPhases = (
+				61C5A10F369C85288F227FDF /* [CP] Check Pods Manifest.lock */,
+				29984E1224390852004BD732 /* Sources */,
+				29984E1324390852004BD732 /* Frameworks */,
+				29984E1424390852004BD732 /* Resources */,
+				E1D62EC5A093B25EF5BC78EF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MadeinKuwait-Driver";
+			productName = "MadeinKuwait-Driver";
+			productReference = 29984E1624390852004BD732 /* MadeinKuwait-Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29984E0E24390852004BD732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Amir;
+				TargetAttributes = {
+					29984E1524390852004BD732 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 29984E1124390852004BD732 /* Build configuration list for PBXProject "MadeinKuwait-Driver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29984E0D24390852004BD732;
+			productRefGroup = 29984E1724390852004BD732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29984E1524390852004BD732 /* MadeinKuwait-Driver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29984E1424390852004BD732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59804332441BC2F007ED70C /* OrderCell.xib in Resources */,
+				29984E2624390854004BD732 /* LaunchScreen.storyboard in Resources */,
+				29AA266E243E6A260031E4A6 /* WaitingOrderCell.xib in Resources */,
+				29984E2324390854004BD732 /* Assets.xcassets in Resources */,
+				29984E2124390852004BD732 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61C5A10F369C85288F227FDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadeinKuwait-Driver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D62EC5A093B25EF5BC78EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MadeinKuwait-Driver/Pods-MadeinKuwait-Driver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MadeinKuwait-Driver/Pods-MadeinKuwait-Driver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MadeinKuwait-Driver/Pods-MadeinKuwait-Driver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29984E1224390852004BD732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293214EB2442441B00E43359 /* SignupVC.swift in Sources */,
+				293214F82442467B00E43359 /* HelpVC.swift in Sources */,
+				ED91B94C244DF39E008FF9F0 /* CustomAnimatedTextInputStyle.swift in Sources */,
+				29984E5424390A40004BD732 /* UIButtonX.swift in Sources */,
+				ED779CB2244B7A7400453A0E /* String+Validation.swift in Sources */,
+				29984E5224390A40004BD732 /* UIViewAnchorPoint.swift in Sources */,
+				29984E5524390A40004BD732 /* UIVisualEffectViewX.swift in Sources */,
+				29984E4E24390A40004BD732 /* UILabelX.swift in Sources */,
+				EDE9522B244A687F00DDD9B3 /* UISegmentControl+AddSelectedSegBar.swift in Sources */,
+				293214ED2442442C00E43359 /* ProfileVC.swift in Sources */,
+				29984E1A24390852004BD732 /* AppDelegate.swift in Sources */,
+				293214FA2442470D00E43359 /* OrderDetailsVC.swift in Sources */,
+				29984E4F24390A40004BD732 /* UIViewXRadialGradient.swift in Sources */,
+				29984E4D24390A40004BD732 /* UISliderX.swift in Sources */,
+				29984E402439099E004BD732 /* APIRouter.swift in Sources */,
+				29984E3E2439099E004BD732 /* APIClient.swift in Sources */,
+				29984E38243908DE004BD732 /* UIImage.swift in Sources */,
+				293214EF2442443C00E43359 /* EditProfileVC.swift in Sources */,
+				29984E5024390A40004BD732 /* UIViewControllerX.swift in Sources */,
+				C59804322441BC2F007ED70C /* OrderCell.swift in Sources */,
+				29984E5324390A40004BD732 /* UIViewX.swift in Sources */,
+				EDB35CAE244C56AD00658344 /* UIView+AdditionalFeatures.swift in Sources */,
+				29984E1C24390852004BD732 /* SceneDelegate.swift in Sources */,
+				ED779CB0244B77E500453A0E /* UIViewController+AdditionalFeatures.swift in Sources */,
+				293214F12442446C00E43359 /* HomeVC.swift in Sources */,
+				29984E34243908CF004BD732 /* Reload.swift in Sources */,
+				293214F32442447F00E43359 /* OrdersVC.swift in Sources */,
+				29AA266F243E6A260031E4A6 /* WaitingOrderCell.swift in Sources */,
+				29984E3A243908E4004BD732 /* NetworkHelper.swift in Sources */,
+				29984E5624390A40004BD732 /* UITextFieldX.swift in Sources */,
+				2913E43724448C60006CD6BD /* MapVC.swift in Sources */,
+				29984E5124390A40004BD732 /* UIImageViewX.swift in Sources */,
+				29984E36243908D3004BD732 /* Card View.swift in Sources */,
+				29984E3F2439099E004BD732 /* Constants.swift in Sources */,
+				293214E92442440C00E43359 /* LoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29984E1F24390852004BD732 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29984E2024390852004BD732 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29984E2424390854004BD732 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29984E2524390854004BD732 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29984E2824390854004BD732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29984E2924390854004BD732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29984E2B24390854004BD732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F87A11E439E1D41F50A2FA7 /* Pods-MadeinKuwait-Driver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3R3H9N6S6;
+				INFOPLIST_FILE = "MadeinKuwait-Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Miroz007.MadeinKuwait-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29984E2C24390854004BD732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2AE5EAB4A605F3523017616 /* Pods-MadeinKuwait-Driver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3R3H9N6S6;
+				INFOPLIST_FILE = "MadeinKuwait-Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Miroz007.MadeinKuwait-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29984E1124390852004BD732 /* Build configuration list for PBXProject "MadeinKuwait-Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29984E2824390854004BD732 /* Debug */,
+				29984E2924390854004BD732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29984E2A24390854004BD732 /* Build configuration list for PBXNativeTarget "MadeinKuwait-Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29984E2B24390854004BD732 /* Debug */,
+				29984E2C24390854004BD732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29984E0E24390852004BD732 /* Project object */;
+}
